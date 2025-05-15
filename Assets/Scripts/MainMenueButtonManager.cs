@@ -7,7 +7,7 @@ public class MainMenueButtonManager : MonoBehaviour
 
     public void StartGamePressed()
     {
-        Debug.Log($"{Pressed("New Game Chakra")}");
+        Debug.Log($"{Pressed("New Game")}");
         SceneManager.LoadScene(gameSceneName);
     }
 
